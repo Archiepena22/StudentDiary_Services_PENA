@@ -4,7 +4,7 @@ using StudentDiary_Services_PENA.Models;
 
 namespace StudentDiary_Services_PENA.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : Controller   
     {
         private readonly ILogger<HomeController> _logger;
 
