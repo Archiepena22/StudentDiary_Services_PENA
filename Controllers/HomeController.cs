@@ -1,14 +1,14 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using StudentDiary_Services_PENA.Models;
-
+   
 namespace StudentDiary_Services_PENA.Controllers
-{
+{    
     public class HomeController : Controller   
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger)  
         {
             _logger = logger;
         }
@@ -17,9 +17,9 @@ namespace StudentDiary_Services_PENA.Controllers
         {
             return View();
         }
-
+          
         public IActionResult Privacy()
-        {
+        {   
             return View();
         }
 
